@@ -1,6 +1,6 @@
 # Project Goal
 
-The goal of this project is to create an ELT job using the following datasets: _, _, _, _. As a result, clients will have an everyday update database that will allow them to find answers to questions based on _ (inmigrations events)
+ELT data pipeline based on the following datasets: _, _, _, _. As a result, clients will have an everyday update database that will allow them to find answers to questions based on _ (expats in the U.S.)
 
 
 # Initial Thoughts
@@ -15,10 +15,11 @@ Some questions/queries I formulate myself that draw me to work with these datase
 
 Many of the data comes in a raw format and in different kinds of format. Not all data is tabular.
 
-- List Data sources
-- 
-- 
-- 
+- I94 Immigration Data: This data comes from the US National Tourism and Trade Office. ![here](https://travel.trade.gov/research/reports/i94/historical/2016.html)
+<!-- A data dictionary is included in the workspace.  -->
+- World Temperature Data: This dataset came from Kaggle. You can read more about it ![here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data).
+- U.S. City Demographic Data: This data comes from OpenSoft. You can read more about it ![here](https://public.opendatasoft.com/explore/dataset/us-cities-demographics/export/).
+- Airport Code Table: This is a simple table of airport codes and corresponding cities. It comes from ![here](https://datahub.io/core/airport-codes#data).
 
 # Define the Data Model
 Why did you choose the model you chose?
